@@ -1,0 +1,21 @@
+﻿<html>
+<body>
+    <a asp-controller="Home" asp-action="Route1">Route 1, no parameter</a>
+    <br />
+    <br />
+    <a asp-controller="Home" asp-action="Route2" asp-route-firstName="Amir">Route 2, with parameter</a>
+    <br />
+    <br />
+    <a asp-controller="Home" asp-action="Route2int">Route 2int, without parameter</a>
+    <br />
+    <br />
+    <a asp-controller="Home" asp-action="Route3" asp-route-firstName="Amir" asp-route-lastName="Rad">Route 3, with multiple parameters</a>
+    <br />
+    <br />
+    <a asp-controller="Home" asp-action="Route4">Route 4, invoked for route4</a>
+    <br />
+    <br />
+    <a asp-controller="Home" asp-action="Route5">Route 5, invoked with exception</a>
+
+</body>
+</html>
