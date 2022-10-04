@@ -43,7 +43,6 @@ namespace ConventionalRouting.Controllers
 
         public IActionResult Route5()
         {
-            //throw new NullReferenceException();
             throw new NullReferenceException();
         }
 
